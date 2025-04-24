@@ -1,0 +1,99 @@
+/* Container Styling */
+/*
+.container {
+    background-color: rgba(255, 255, 255, 0.7); /* Slightly darker transparency 
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 1200px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4); /* Subtle shadow for depth 
+    color:black
+}
+
+
+/* Enhanced Note Heading */
+.notes-heading {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+/* Form Styling */
+.custom-form .form-label {
+    font-weight: bold;
+    color: #555;
+    font-size: 1rem;
+    
+}
+
+.custom-form .form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    background-color: #f7f7f7; /* Light background for form fields */
+}
+
+/* Modal Styling */
+.modal-content {
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #ffffff; /* Clean white background */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow for modals */
+}
+
+.modal-header {
+    border-bottom: none;
+    padding-bottom: 0; /* Aligns with the clean look */
+}
+
+.modal-title {
+    font-size: 2rem;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.modal-footer .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.modal-footer .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+/* Note Item Styling */
+.note-item {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.note-item:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Notes.css */
+
+body {
+    background-image: url('../images/BC.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    color: #fff; 
+    font-family: 'Arial', sans-serif; 
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+

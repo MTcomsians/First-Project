@@ -1,0 +1,97 @@
+/* Navbar Styles */
+.navbar {
+    position: relative;
+    display: flex;
+    background: linear-gradient(155deg, #0f2f2e, #605f5f); /* Dark gradient background */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+    border-radius: 10px;
+}
+
+.navbar-brand {
+    font-size: 1.75rem; /* Increased size of the brand */
+    color: #ffffff; /* White color for brand */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.navbar-brand:hover {
+    color: #17a2b8; /* Change brand color on hover */
+}
+
+.nav-link {
+    color: #ffffff; /* White color for links */
+    transition: color 0.3s ease, transform 0.2s; /* Smooth transition for hover effect */
+}
+
+.nav-link:hover {
+    color: #17a2b8; /* Change color on hover */
+    transform: translateY(-2px); /* Lift link on hover */
+}
+
+.nav-item.active .nav-link {
+    font-weight: bold; /* Bold active links */
+    color: #17a2b8; /* Active link color */
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); /* Text shadow for active links */
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, #007bff, #0056b3); /* Gradient for primary button */
+    border: none; /* Remove border */
+    color: white; /* White text color */
+    transition: background 0.3s ease, transform 0.2s; /* Smooth transition for hover effect */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.btn-primary:hover {
+    background: linear-gradient(90deg, #0056b3, #004085); /* Darker gradient on hover */
+    transform: translateY(-2px); /* Slightly lift button on hover */
+}
+
+/* Modal Styles */
+.modal {
+    color: #212529; /* Default text color for modal */
+}
+
+.modal-header {
+    border-radius: inherit;
+    border-bottom: none; /* Remove bottom border for a cleaner look */
+    background: linear-gradient(to right, #007bff, #0056b3);
+    padding: 15px; /* Gradient for modal header */
+    color: white; /* White text color for modal header */
+}
+
+.modal-title {
+    font-weight: bold; /* Bold title */
+}
+
+.modal-footer .btn-secondary {
+    background-color: #6c757d; /* Secondary button color */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.modal-footer .btn-secondary:hover {
+    background-color: #5a6268; /* Darker secondary button color on hover */
+}
+
+.modal-footer .btn-primary {
+    background: linear-gradient(90deg, #007bff, #0056b3); /* Gradient for primary button */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.modal-footer .btn-primary:hover {
+    background: linear-gradient(90deg, #0056b3, #004085); /* Darker gradient on hover */
+}
+
+/* Adjusting the Modal background */
+.modal.show {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for modal */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.5rem; /* Smaller brand size on mobile */
+    }
+    .nav-link {
+        font-size: 0.9rem; /* Smaller link size on mobile */
+    }
+}

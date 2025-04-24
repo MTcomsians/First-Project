@@ -1,0 +1,22 @@
+@media (min-width: 1200px) {
+    .h1, h1 {
+        font-size: 2.5rem;
+    }
+}
+.modal-title {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+p {
+    color: black;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.modal-body {
+    color: black;
+    position: relative;
+    flex: 1 1 auto;
+    padding: var(--bs-modal-padding);
+}
